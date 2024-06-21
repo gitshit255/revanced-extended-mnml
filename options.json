@@ -1,14 +1,41 @@
+        
 [
+  {
+    "patchName": "Custom Shorts action buttons",
+    "options": [
+      {
+        "key": "IconType",
+        "value": "outline"
+      }
+    ]
+  },
+  {
+    "patchName": "Custom branding icon for YouTube",
+    "options": [
+      {
+        "key": "AppIcon",
+        "value": "youtube"
+      },
+      {
+        "key": "ChangeSplashIcon",
+        "value": "true"
+      },
+      {
+        "key": "RestoreOldSplashAnimation",
+        "value": "true"
+      }
+    ]
+  },
   {
     "patchName": "Custom package name",
     "options": [
       {
         "key": "PackageNameYouTube",
-        "value": "yt.rvx.mnml.noname.exe"
+        "value": "yt.rvx.noname.exe"
       },
       {
         "key": "PackageNameYouTubeMusic",
-        "value": "ytm.rvx.mnml.noname.exe"
+        "value": "ytm.rvx.noname.exe"
       }
     ]
   },
@@ -16,18 +43,28 @@
     "patchName": "Overlay buttons",
     "options": [
       {
-        "key": "OutlineIcon",
-        "value": true
+        "key": "IconType",
+        "value": "rounded"
       }
     ]
   },
   {
-    "patchName": "SponsorBlock",
+    "patchName": "Settings for YouTube",
     "options": [
       {
-        "key": "OutlineIcon",
-        "value": true
+        "key": "RVXSettingsMenuName",
+        "value": "ReVanced eXtended"
+      }
+    ]
+  },
+  {
+    "patchName": "Visual preferences icons",
+    "options": [
+      {
+        "key": "RVXSettingsMenuIcon",
+        "value": "revanced_colored"
       }
     ]
   }
 ]
+        
