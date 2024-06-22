@@ -58,6 +58,19 @@
     ]
   },
   {
+    "patchName": "Theme",
+    "options": [
+      {
+        "key": "DarkThemeBackgroundColor",
+        "value": "#FF290000"
+      },
+      {
+        "key": "LightThemeBackgroundColor",
+        "value": "#FFD1E0FF"
+      }
+    ]
+  },  
+  {
     "patchName": "Visual preferences icons",
     "options": [
       {
