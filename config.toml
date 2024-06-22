@@ -11,6 +11,7 @@ rv-brand = "ReVanced eXtended MNML"
 
 [YouTube]
 build-mode = "apk"
-apkmirror-dlurl = "https://www.apkmirror.com/apk /google-inc/youtube/"
+version = "auto"                                                      
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 included-patches = "'Force hide player buttons background' 'Hide Shorts dimming' 'Hide animated button background' 'Hide double tap overlay filter' 'Visual preferences icons'"
 excluded-patches = "'Disable splash animation' 'Enable debug logging'"                                           
