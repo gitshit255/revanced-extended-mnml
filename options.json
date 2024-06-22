@@ -75,7 +75,7 @@
     "options": [
       {
         "key": "RVXSettingsMenuIcon",
-        "value": "custom_branding_icon"
+        "value": "extension"
       }
     ]
   }
