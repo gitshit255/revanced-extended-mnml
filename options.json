@@ -22,7 +22,7 @@
       },
       {
         "key": "RestoreOldSplashAnimation",
-        "value": "true"
+        "value": "false"
       }
     ]
   },
