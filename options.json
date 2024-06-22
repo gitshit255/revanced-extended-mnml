@@ -18,11 +18,11 @@
       },
       {
         "key": "ChangeSplashIcon",
-        "value": "false"
+        "value": false
       },
       {
         "key": "RestoreOldSplashAnimation",
-        "value": "false"
+        "value": true
       }
     ]
   },
