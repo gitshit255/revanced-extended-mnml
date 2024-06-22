@@ -14,11 +14,11 @@
     "options": [
       {
         "key": "AppIcon",
-        "value": "afn_red"
+        "value": "youtube"
       },
       {
         "key": "ChangeSplashIcon",
-        "value": "true"
+        "value": "false"
       },
       {
         "key": "RestoreOldSplashAnimation",
