@@ -62,7 +62,7 @@
     "options": [
       {
         "key": "RVXSettingsMenuIcon",
-        "value": "gear"
+        "value": "custom_branding_icon"
       }
     ]
   }
