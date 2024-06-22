@@ -17,10 +17,6 @@
         "value": "youtube"
       },
       {
-        "key": "ChangeSplashIcon",
-        "value": "true"
-      },
-      {
         "key": "RestoreOldSplashAnimation",
         "value": "true"
       }
@@ -31,11 +27,11 @@
     "options": [
       {
         "key": "PackageNameYouTube",
-        "value": "yt.rvx.noname.exe"
+        "value": "yt.rvx.mnml.noname.exe"
       },
       {
         "key": "PackageNameYouTubeMusic",
-        "value": "ytm.rvx.noname.exe"
+        "value": "ytm.rvx.mnml.noname.exe"
       }
     ]
   },
@@ -53,7 +49,7 @@
     "options": [
       {
         "key": "RVXSettingsMenuName",
-        "value": "ReVanced eXtended"
+        "value": "ReVanced eXtended MNML"
       }
     ]
   },
@@ -62,7 +58,7 @@
     "options": [
       {
         "key": "RVXSettingsMenuIcon",
-        "value": "revanced_colored"
+        "value": "custom_branding_icon"
       }
     ]
   }
