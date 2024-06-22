@@ -17,6 +17,10 @@
         "value": "youtube"
       },
       {
+        "key": "ChangeSplashIcon",
+        "value": "true"
+      },
+      {
         "key": "RestoreOldSplashAnimation",
         "value": "true"
       }
