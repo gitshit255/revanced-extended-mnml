@@ -1,31 +1,11 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
-patches-source = "inotia00/revanced-patches"
+patches-source = "inotia00/revanced-patches-arsclib"
 integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
+cli-source = "inotia00/revanced-cli-arsclib"
 rv-brand = "ReVanced eXtended MNML"
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
 # see https://github.com/j-hc/revanced-magisk-module/blob/main/CONFIG.md for more detailed explanations
-
-# you can use rvmm-config-gen to generate a config
-
-[YouTube]
-build-mode = "both"                                                   
-excluded-patches = "'Alternative thumbnails' 'Change start page' 'Custom branding name for YouTube' 'Custom double tap length' 'Disable auto audio tracks' 'Disable splash animation' 'Enable debug logging' 'Layout switch' 'Spoof app version' 'Spoof client' 'Translations for YouTube'"                                                 
-included-patches = "'Force hide player buttons background' 'Hide Shorts dimming' 'Hide animated button background' 'Hide double tap overlay filter' 'MaterialYou' 'Visual preferences icons'"                                                 
-version = "auto"                                                      
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
-module-prop-name = "yt-rvx-mnml"
-
-[Music]
-build-mode = "both"
-app-name = "YouTube-Music"
-excluded-patches = "'Change start page' 'Custom branding name for YouTube Music' 'Enable debug logging' 'Restore old style library shelf' 'Spoof app version' 'Translations for YouTube Music'"
-included-patches = "'Custom header for YouTube Music' 'Hide double tap overlay filter' 'Hide player overlay filter'"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
-module-prop-name = "ytm-rvx-mnml"
-arch = "arm64-v8a"
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
