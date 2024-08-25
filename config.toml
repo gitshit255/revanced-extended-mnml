@@ -8,3 +8,5 @@ cli-source = "inotia00/revanced-cli"
 
 [Twitter]
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android"
+included-patches = "'Bring back twitter'"
+excluded-patches = "'Hide bookmark icon in timeline' 'Hide Community Notes'"
