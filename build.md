@@ -7,9 +7,9 @@ Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to block Play Store f
 
 [Main Repo](https://github.com/NoName-exe/revanced-extended-mnml)  
 CLI: inotia00/revanced-cli-4.6.1-all.jar  
-Integrations: crimera/revanced-integrations-1.27.0.apk  
-Patches: crimera/piko-twitter-patches-1.38.0.jar  
-[Changelog](https://github.com/crimera/piko/releases/tag/v1.38.0)
+Integrations: crimera/revanced-integrations-1.26.1.apk  
+Patches: crimera/piko-twitter-patches-1.37.1.jar  
+[Changelog](https://github.com/crimera/piko/releases/tag/v1.37.1)
 
 CLI: inotia00/revanced-cli-4.6.1-all.jar  
 Integrations: inotia00/revanced-integrations-1.12.3.apk  
