@@ -12,7 +12,7 @@ rv-brand = "ReVanced eXtended MNML"
 [YouTube]
 build-mode = "both"
 included-patches = "'Force hide player buttons background' 'Hide Shorts dimming' 'MaterialYou' 'Return YouTube Username'"
-excluded-patches = "'Alternative thumbnails' 'Change start page' 'Custom double tap length' 'Enable debug logging' 'Layout switch' 'Theme' 'Translations for YouTube'"
+excluded-patches = "'Alternative thumbnails' 'Change start page' 'Custom double tap length' 'Enable debug logging' 'Layout switch' 'Translations for YouTube'"
 version = "auto"                                                      
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rvx-mnml"
