@@ -18,11 +18,11 @@
       },
       {
         "key": "ChangeSplashIcon",
-        "value": "true"
+        "value": true
       },
       {
         "key": "RestoreOldSplashAnimation",
-        "value": "true"
+        "value": true
       }
     ]
   },
@@ -57,11 +57,11 @@
       },
       {
         "key": "WiderButtonsSpace",
-        "value": "true"
+        "value": true
       },
       {
         "key": "ChangeTopButtons",
-        "value": "true"
+        "value": true
       }
     ]
   },
@@ -79,7 +79,7 @@
     "options": [
       {
         "key": "OutlineIcon",
-        "value": "true"
+        "value": true
       }
     ]
   },
@@ -92,7 +92,7 @@
       },
       {
         "key": "ApplyToAll",
-        "value": "true"
+        "value": true
       }
     ]
   },
@@ -105,11 +105,11 @@
       },
       {
         "key": "ChangeSplashIcon",
-        "value": "true"
+        "value": true
       },
       {
         "key": "RestoreOldSplashIcon",
-        "value": "true"
+        "value": true
       }
     ]
   },
@@ -141,4 +141,3 @@
     ]
   }
 ]
-        
