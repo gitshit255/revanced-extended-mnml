@@ -13,7 +13,7 @@ build-mode = "apk"
 included-patches = "'Force hide player buttons background' 'Hide Shorts dimming' 'MaterialYou' 'Return YouTube Username'"
 excluded-patches = "'Alternative thumbnails' 'Change start page' 'Custom double tap length' 'Enable debug logging' 'Layout switch' 'Theme' 'Translations for YouTube'"
 version = "auto"    
-patcher-args = "-e 'GmsCore support' -OpackageNameYouTube=yt.rvx.noname.exe -OpackageNameYouTubeMusic=ytm.rvx.noname.exe" 
+patcher-args = "-e 'GmsCore support' -OpackageNameYouTube='yt.rvx.noname.exe' -OpackageNameYouTubeMusic='ytm.rvx.noname.exe'" 
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rvx-mnml"
 
