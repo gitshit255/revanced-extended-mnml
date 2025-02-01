@@ -17,4 +17,4 @@ excluded-patches = "'Alternative thumbnails' 'Change start page' 'Custom double 
 version = "auto"                                                      
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 module-prop-name = "yt-rvx-mnml"
-patcher-args = " -e 'Custom branding name for YouTube' -OappName="ReVanced eXtended MNML" -e 'GmsCore support' -OpackageNameYouTube="rv.mnml" "
+patcher-args = " -e 'Custom branding name for YouTube' -OappName='ReVanced eXtended MNML' -e 'GmsCore support' -OpackageNameYouTube='rv.mnml' "
