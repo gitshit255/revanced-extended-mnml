@@ -187,5 +187,3 @@ fi
 
 rm -rf "${MODPATH:?}/bin" "$MODPATH/$PKG_NAME.apk"
 
-ui_print "- Done"
-
