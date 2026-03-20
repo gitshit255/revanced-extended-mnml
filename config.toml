@@ -1,5 +1,6 @@
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
-patches-source = "inotia00/revanced-patches"
+enable-module-update = true # set this to false if you do not want to receive updates for the module
+patches-source = "MorpheApp/morphe-patches"
+cli-source = "MorpheApp/morphe-cli"
 rv-brand = "ReVanced eXtended MNML"
 parallel-jobs = 1
 
