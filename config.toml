@@ -16,6 +16,7 @@ included-patches = "'Force hide player buttons background' 'Hide Shorts dimming'
 excluded-patches = "'Alternative thumbnails' 'Change form factor' 'Change start page' 'Disable forced auto audio tracks' 'Disable layout updates' 'Disable splash animation' 'Enable debug logging' 'Spoof app version' 'Theme' 'Translations for YouTube'"
 patcher-args = "-e 'Custom Shorts action buttons' -OiconType=outline -e 'Custom branding icon for YouTube' -OappIcon=mmt -OchangeSplashIcon=true -OrestoreOldSplashAnimation=true -e  'Custom branding name for YouTube' -OappName='ReVanced eXtended MNML ' -e 'GmsCore support' -OpackageNameYouTube=yt.rvx.mnml.noname.exe -e 'Overlay buttons' -OiconType=rounded -OwiderButtonsSpace=true -OchangeTopButtons=true -e 'Settings for YouTube' -OrvxSettingsLabel='ReVanced eXtended MNML ' -e 'Snack bar components' -OapplyCornerRadiusToPlaylistBottomBar=true -e SponsorBlock -OoutlineIcon=true -e 'Visual preferences icons for YouTube' -OsettingsMenuIcon=custom_branding_icon -OapplyToAll=true "
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 module-prop-name = "yt-rvx-mnml"
 
 [Music]
@@ -27,4 +28,5 @@ included-patches = "'Custom header for YouTube Music' 'Disable music video in al
 excluded-patches = "'Change start page' 'Custom branding name for YouTube Music' 'Enable debug logging' 'Spoof app version' 'Translations for YouTube Music'"
 patcher-args = "-e 'Custom branding icon for YouTube Music' -OappIcon=mmt -OchangeSplashIcon=true -OrestoreOldSplashIcon=true -e 'Custom header for YouTube Music' -OcustomHeader=custom_branding_icon -e 'Dark theme' -OmaterialYou=true -e 'GmsCore support' -OpackageNameYouTubeMusic=ytm.rvx.mnml.noname.exe -e 'Settings for YouTube Music' -OrvxSettingsLabel='ReVanced eXtended MNML ' -e 'Visual preferences icons for YouTube Music' -OsettingsMenuIcon=custom_branding_icon "
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 module-prop-name = "ytm-rvx-mnml"
