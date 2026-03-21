@@ -60,9 +60,9 @@ jobs:
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
 
-          yt_op=$(find build -maxdepth 1 -name "youtube-revanced-extended-mnml-module-*.zip" -printf '%P\n')
+          yt_op=$(find build -maxdepth 1 -name "youtube-morphe-mnml-module-*.zip" -printf '%P\n')
           if [ -z "$yt_op" ]; then
-            echo "RELEASE_NAME=ReVanced eXtended MNML" >> $GITHUB_OUTPUT
+            echo "RELEASE_NAME=Morphe MNML" >> $GITHUB_OUTPUT
           else
             echo "RELEASE_NAME=$yt_op" >> $GITHUB_OUTPUT
           fi
