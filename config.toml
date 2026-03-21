@@ -12,8 +12,9 @@ parallel-jobs = 1
 [YouTube]
 build-mode = "both"
 version = "auto"
+included-patches = "'Change package name'"
 excluded-patches = "'Alternative thumbnails' 'Change form factor' 'Change header' 'Change start page' 'Disable double tap actions' 'Disable haptic feedback' 'Disable rolling number animations' 'Disable video codecs' 'Double tap to seek' 'Enable debugging' 'Hide end screen cards' 'Hide info cards' 'Hide related videos' 'Hide timestamp' 'Open Shorts in regular player' 'Open videos fullscreen' 'Reload video' 'Shorts autoplay' 'Spoof device dimensions'"
-patcher-args = "-e 'Theme' -OdarkThemeBackgroundColor=@android:color/system_neutral1_900"
+patcher-args = "-e 'Change package name' -OpackageName=yt.morphe.mnml.noname.exe -e 'Theme' -OdarkThemeBackgroundColor=@android:color/system_neutral1_900"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 module-prop-name = "yt-rvx-mnml"
