@@ -35,14 +35,14 @@ fi
 INS=true
 if BASEPATH=$(get_basepath); then
 	if [ "${BASEPATH:1:4}" != data ]; then
-		ui_print "-  Detected $PKG_NAME as a system app"
+		ui_print "- Detected $PKG_NAME as a system app"
 		SCNM="/data/adb/post-fs-data.d/$PKG_NAME-uninstall.sh"
 		mkdir -p /data/adb/post-fs-data.d
 		echo "mount -t tmpfs none $BASEPATH" >"$SCNM"
 		chmod +x "$SCNM"
-		ui_print "-  Created the uninstall script."
+		ui_print "- Created the uninstall script."
 		ui_print ""
-		ui_print "-  Reboot and reflash the module!"
+		ui_print "- Reboot and reflash the module!"
 		abort
 	fi
 
@@ -76,7 +76,7 @@ install() {
 
 	SZ=$(stat -c "%s" "$MODPATH"/stock/*.apk | awk '{sum += $0} END {print sum}')
 	for IT in 1 2; do
-		ui_print "-  Updating $PKG_NAME to $PKG_VER"
+		ui_print "- Updating $PKG_NAME to $PKG_VER"
 		if ! SES=$(pmex install-create --user 0 -i com.android.vending -r -S "$SZ"); then
 			ui_print "ERROR: install-create failed"
 			install_err="$SES"
@@ -97,7 +97,7 @@ install() {
 		if ! op=$(pmex install-commit "$SES"); then
 			ui_print "$op"
 			if echo "$op" | grep -q -e INSTALL_FAILED_VERSION_DOWNGRADE -e INSTALL_FAILED_UPDATE_INCOMPATIBLE; then
-				ui_print "-  Uninstalling..."
+				ui_print "- Uninstalling..."
 				if ! op=$(pmex uninstall "$PKG_NAME"); then
 					ui_print "$op"
 					if [ $IT = 2 ]; then
@@ -139,7 +139,7 @@ fi
 
 set_perm "$MODPATH/base.apk" 1000 1000 644 u:object_r:apk_data_file:s0
 
-ui_print "-  Mounting $PKG_NAME"
+ui_print "- Mounting $PKG_NAME"
 # move out the apk from /data/adb/modules/.. to /data/adb/rvhc to not trip some root detections
 mkdir -p "/data/adb/rvhc"
 mv -f "$MODPATH/base.apk" "$RVPATH"
@@ -150,7 +150,7 @@ if ! op=$(su -M -c mount -o bind "$RVPATH" "$BASEPATH/base.apk" 2>&1); then
 fi
 am force-stop "$PKG_NAME"
 
-ui_print "-  Optimizing $PKG_NAME"
+ui_print "- Optimizing $PKG_NAME"
 cmd package compile -m speed-profile -f "$PKG_NAME" >/dev/null 2>&1
 # nohup cmd package compile -m speed-profile -f "$PKG_NAME" >/dev/null 2>&1
 
