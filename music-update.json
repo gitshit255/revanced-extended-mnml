@@ -1,6 +1,6 @@
 {
-  "version": "v9.30.53 (patches 2.0.0.mpp)",
-  "versionCode": 36,
-  "zipUrl": "https://github.com/gitshit255/revanced-extended-mnml/releases/download/36/youtube-music-morphe-mnml-module-v9.30.53-arm64-v8a.zip",
+  "version": "v9.30.53 (patches 2.1.0.mpp)",
+  "versionCode": 37,
+  "zipUrl": "https://github.com/gitshit255/revanced-extended-mnml/releases/download/37/youtube-music-morphe-mnml-module-v9.30.53-arm64-v8a.zip",
   "changelog": "https://raw.githubusercontent.com/gitshit255/revanced-extended-mnml/update/build.md"
 }
